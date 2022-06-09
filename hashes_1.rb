@@ -111,3 +111,28 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+email = [
+  {
+  "Sender": "Person Name",
+  "Subject": "This Note",
+  "Body": "There could be a lot in here.",
+  "Time": "HH:MM",
+  "Date": "DD/MM/YY"
+  },
+  {
+  "Sender": "J Bob",
+  "Subject": "Another Note",
+  "Body": "There could be not a lot in here.",
+  "Time": "02:22",
+  "Date": "05/05/22"
+  },
+  {
+  "Sender": "Lisa M",
+  "Subject": "This is important",
+  "Body": "Not much here.",
+  "Time": "15:26",
+  "Date": "26/04/22"
+  }
+]
+
+p email
