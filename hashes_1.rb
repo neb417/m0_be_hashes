@@ -19,15 +19,17 @@ p foods.keys
 
 # Write code that prints all of the 'values' of the foods variable
 # you created above:
-# YOUR CODE HERE
+p foods.values
 
 # Write code that prints the value of the second food of the foods variable
 # you created above:
-# YOUR CODE HERE
+p foods.values[1]
 
 # Write code that adds a food to the foods hash.
 # Then, print the updated hash:
-# YOUR CODE HERE
+foods["carrots"] = 24
+
+p foods
 
 
 #-------------------
