@@ -23,10 +23,13 @@ birthdays = {
   "Jeff" => "February 12"
 }
 
-# Use the each method to iterate through it and print out a sentence stating each friends name and birthday
-#
-#
-#
+# Use the each method to iterate through it
+# and print out a sentence stating each friends name and birthday
+
+birthdays.each do |name, date|
+  p "#{date} is #{name}'s Birthday!!"
+end
+
 
 
 # ======================================
