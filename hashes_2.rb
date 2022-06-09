@@ -42,7 +42,11 @@ login_statuses = {
   "Jeff" => true
 }
 
-# Use the each method to iterate through it and print ONLY the names of friends who are "logged in"
-#
-#
-#
+# Use the each method to iterate through it and print
+# ONLY the names of friends who are "logged in"
+
+login_statuses.each do |name, online|
+        if online == true
+            p name
+        end
+  end
