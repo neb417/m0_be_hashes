@@ -44,15 +44,23 @@ p foods
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
+email = {
+  "Sender": "Person Name",
+  "Subject": "This Note",
+  "Body": "There could be a lot in here.",
+  "Time": "HH:MM",
+  "Date": "DD/MM/YY"
+}
 
+p email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-# YOUR CODE HERE
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# YOUR CODE HERE
+p email.values
 
 
 #-------------------
